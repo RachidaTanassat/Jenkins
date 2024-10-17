@@ -11,6 +11,7 @@ pipeline {
                 git 'https://github.com/RachidaTanassat/Jenkins'
             }
         }
+        
         stage('Building image') {
             steps {
                 script {
